@@ -3,7 +3,7 @@ KOKeyboard – iOS keyboard extension
 
 **KOKeyboard** is an iOS drop-in component that adds a new row of keys to the default on-screen keyboard. It consists of swipe buttons with all common symbols, punctuation and brackets, and a special **navigation key**. It was developed for [Kodiak PHP](http://www.becomekodiak.com/), an app which allows you to write and run PHP code directly on the iPad.
 
-<img src="http://i.imgur.com/sgghb.png">
+<img src="http://i.imgur.com/N7nQY.png">
 
 Swipe buttons & Navigation key
 -------------
