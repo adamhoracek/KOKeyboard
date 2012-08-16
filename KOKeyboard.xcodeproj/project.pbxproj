@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665C982815CC2C91001B6908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C982715CC2C91001B6908 /* UIKit.framework */; };
+		665C982A15CC2C91001B6908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C982915CC2C91001B6908 /* Foundation.framework */; };
+		665C982C15CC2C91001B6908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C982B15CC2C91001B6908 /* CoreGraphics.framework */; };
+		665C983215CC2C91001B6908 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 665C983015CC2C91001B6908 /* InfoPlist.strings */; };
+		665C983415CC2C91001B6908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C983315CC2C91001B6908 /* main.m */; };
+		665C983815CC2C91001B6908 /* KOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C983715CC2C91001B6908 /* KOAppDelegate.m */; };
+		665C983B15CC2C91001B6908 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C983A15CC2C91001B6908 /* KOViewController.m */; };
+		665C985415CC2EC5001B6908 /* hal-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984415CC2EC5001B6908 /* hal-black.png */; };
+		665C985515CC2EC5001B6908 /* hal-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984515CC2EC5001B6908 /* hal-black@2x.png */; };
+		665C985615CC2EC5001B6908 /* hal-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984615CC2EC5001B6908 /* hal-blue.png */; };
+		665C985715CC2EC5001B6908 /* hal-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984715CC2EC5001B6908 /* hal-blue@2x.png */; };
+		665C985815CC2EC5001B6908 /* hal-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984815CC2EC5001B6908 /* hal-white.png */; };
+		665C985915CC2EC5001B6908 /* hal-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984915CC2EC5001B6908 /* hal-white@2x.png */; };
+		665C985A15CC2EC5001B6908 /* key-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984A15CC2EC5001B6908 /* key-blue.png */; };
+		665C985B15CC2EC5001B6908 /* key-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984B15CC2EC5001B6908 /* key-blue@2x.png */; };
+		665C985C15CC2EC5001B6908 /* key-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984C15CC2EC5001B6908 /* key-pressed.png */; };
+		665C985D15CC2EC5001B6908 /* key-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984D15CC2EC5001B6908 /* key-pressed@2x.png */; };
+		665C985E15CC2EC5001B6908 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984E15CC2EC5001B6908 /* key.png */; };
+		665C985F15CC2EC5001B6908 /* key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984F15CC2EC5001B6908 /* key@2x.png */; };
+		665C986015CC2EC5001B6908 /* KOKeyboardRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C985115CC2EC5001B6908 /* KOKeyboardRow.m */; };
+		665C986115CC2EC5001B6908 /* KOSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C985315CC2EC5001B6908 /* KOSwipeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665C982315CC2C91001B6908 /* KOKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665C982715CC2C91001B6908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		665C982915CC2C91001B6908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		665C982B15CC2C91001B6908 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		665C982F15CC2C91001B6908 /* KOKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KOKeyboard-Info.plist"; sourceTree = "<group>"; };
+		665C983115CC2C91001B6908 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		665C983315CC2C91001B6908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		665C983515CC2C91001B6908 /* KOKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		665C983615CC2C91001B6908 /* KOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAppDelegate.h; sourceTree = "<group>"; };
+		665C983715CC2C91001B6908 /* KOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOAppDelegate.m; sourceTree = "<group>"; };
+		665C983915CC2C91001B6908 /* KOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		665C983A15CC2C91001B6908 /* KOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		665C984415CC2EC5001B6908 /* hal-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-black.png"; sourceTree = "<group>"; };
+		665C984515CC2EC5001B6908 /* hal-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-black@2x.png"; sourceTree = "<group>"; };
+		665C984615CC2EC5001B6908 /* hal-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-blue.png"; sourceTree = "<group>"; };
+		665C984715CC2EC5001B6908 /* hal-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-blue@2x.png"; sourceTree = "<group>"; };
+		665C984815CC2EC5001B6908 /* hal-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-white.png"; sourceTree = "<group>"; };
+		665C984915CC2EC5001B6908 /* hal-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-white@2x.png"; sourceTree = "<group>"; };
+		665C984A15CC2EC5001B6908 /* key-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-blue.png"; sourceTree = "<group>"; };
+		665C984B15CC2EC5001B6908 /* key-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-blue@2x.png"; sourceTree = "<group>"; };
+		665C984C15CC2EC5001B6908 /* key-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-pressed.png"; sourceTree = "<group>"; };
+		665C984D15CC2EC5001B6908 /* key-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-pressed@2x.png"; sourceTree = "<group>"; };
+		665C984E15CC2EC5001B6908 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		665C984F15CC2EC5001B6908 /* key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key@2x.png"; sourceTree = "<group>"; };
+		665C985015CC2EC5001B6908 /* KOKeyboardRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKeyboardRow.h; sourceTree = "<group>"; };
+		665C985115CC2EC5001B6908 /* KOKeyboardRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKeyboardRow.m; sourceTree = "<group>"; };
+		665C985215CC2EC5001B6908 /* KOSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOSwipeButton.h; sourceTree = "<group>"; };
+		665C985315CC2EC5001B6908 /* KOSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOSwipeButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665C982015CC2C91001B6908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C982815CC2C91001B6908 /* UIKit.framework in Frameworks */,
+				665C982A15CC2C91001B6908 /* Foundation.framework in Frameworks */,
+				665C982C15CC2C91001B6908 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665C981815CC2C91001B6908 = {
+			isa = PBXGroup;
+			children = (
+				665C982D15CC2C91001B6908 /* KOKeyboard */,
+				665C982615CC2C91001B6908 /* Frameworks */,
+				665C982415CC2C91001B6908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665C982415CC2C91001B6908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665C982315CC2C91001B6908 /* KOKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665C982615CC2C91001B6908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665C982715CC2C91001B6908 /* UIKit.framework */,
+				665C982915CC2C91001B6908 /* Foundation.framework */,
+				665C982B15CC2C91001B6908 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		665C982D15CC2C91001B6908 /* KOKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				66B86ACE15DD034100DB7BAF /* Classes */,
+				665C983915CC2C91001B6908 /* KOViewController.h */,
+				665C983A15CC2C91001B6908 /* KOViewController.m */,
+				665C983615CC2C91001B6908 /* KOAppDelegate.h */,
+				665C983715CC2C91001B6908 /* KOAppDelegate.m */,
+				665C982E15CC2C91001B6908 /* Supporting Files */,
+			);
+			path = KOKeyboard;
+			sourceTree = "<group>";
+		};
+		665C982E15CC2C91001B6908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665C986215CC2ED3001B6908 /* Assets */,
+				665C982F15CC2C91001B6908 /* KOKeyboard-Info.plist */,
+				665C983015CC2C91001B6908 /* InfoPlist.strings */,
+				665C983315CC2C91001B6908 /* main.m */,
+				665C983515CC2C91001B6908 /* KOKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		665C986215CC2ED3001B6908 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				665C984415CC2EC5001B6908 /* hal-black.png */,
+				665C984515CC2EC5001B6908 /* hal-black@2x.png */,
+				665C984615CC2EC5001B6908 /* hal-blue.png */,
+				665C984715CC2EC5001B6908 /* hal-blue@2x.png */,
+				665C984815CC2EC5001B6908 /* hal-white.png */,
+				665C984915CC2EC5001B6908 /* hal-white@2x.png */,
+				665C984A15CC2EC5001B6908 /* key-blue.png */,
+				665C984B15CC2EC5001B6908 /* key-blue@2x.png */,
+				665C984C15CC2EC5001B6908 /* key-pressed.png */,
+				665C984D15CC2EC5001B6908 /* key-pressed@2x.png */,
+				665C984E15CC2EC5001B6908 /* key.png */,
+				665C984F15CC2EC5001B6908 /* key@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		66B86ACE15DD034100DB7BAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				665C985015CC2EC5001B6908 /* KOKeyboardRow.h */,
+				665C985115CC2EC5001B6908 /* KOKeyboardRow.m */,
+				665C985215CC2EC5001B6908 /* KOSwipeButton.h */,
+				665C985315CC2EC5001B6908 /* KOSwipeButton.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665C982215CC2C91001B6908 /* KOKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665C984115CC2C91001B6908 /* Build configuration list for PBXNativeTarget "KOKeyboard" */;
+			buildPhases = (
+				665C981F15CC2C91001B6908 /* Sources */,
+				665C982015CC2C91001B6908 /* Frameworks */,
+				665C982115CC2C91001B6908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOKeyboard;
+			productName = KOKeyboard;
+			productReference = 665C982315CC2C91001B6908 /* KOKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665C981A15CC2C91001B6908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KO;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Adam Horacek";
+			};
+			buildConfigurationList = 665C981D15CC2C91001B6908 /* Build configuration list for PBXProject "KOKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 665C981815CC2C91001B6908;
+			productRefGroup = 665C982415CC2C91001B6908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665C982215CC2C91001B6908 /* KOKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665C982115CC2C91001B6908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C983215CC2C91001B6908 /* InfoPlist.strings in Resources */,
+				665C985415CC2EC5001B6908 /* hal-black.png in Resources */,
+				665C985515CC2EC5001B6908 /* hal-black@2x.png in Resources */,
+				665C985615CC2EC5001B6908 /* hal-blue.png in Resources */,
+				665C985715CC2EC5001B6908 /* hal-blue@2x.png in Resources */,
+				665C985815CC2EC5001B6908 /* hal-white.png in Resources */,
+				665C985915CC2EC5001B6908 /* hal-white@2x.png in Resources */,
+				665C985A15CC2EC5001B6908 /* key-blue.png in Resources */,
+				665C985B15CC2EC5001B6908 /* key-blue@2x.png in Resources */,
+				665C985C15CC2EC5001B6908 /* key-pressed.png in Resources */,
+				665C985D15CC2EC5001B6908 /* key-pressed@2x.png in Resources */,
+				665C985E15CC2EC5001B6908 /* key.png in Resources */,
+				665C985F15CC2EC5001B6908 /* key@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665C981F15CC2C91001B6908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C983415CC2C91001B6908 /* main.m in Sources */,
+				665C983815CC2C91001B6908 /* KOAppDelegate.m in Sources */,
+				665C983B15CC2C91001B6908 /* KOViewController.m in Sources */,
+				665C986015CC2EC5001B6908 /* KOKeyboardRow.m in Sources */,
+				665C986115CC2EC5001B6908 /* KOSwipeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665C983015CC2C91001B6908 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665C983115CC2C91001B6908 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665C983F15CC2C91001B6908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		665C984015CC2C91001B6908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665C984215CC2C91001B6908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KOKeyboard/KOKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "KOKeyboard/KOKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		665C984315CC2C91001B6908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KOKeyboard/KOKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "KOKeyboard/KOKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665C981D15CC2C91001B6908 /* Build configuration list for PBXProject "KOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C983F15CC2C91001B6908 /* Debug */,
+				665C984015CC2C91001B6908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665C984115CC2C91001B6908 /* Build configuration list for PBXNativeTarget "KOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C984215CC2C91001B6908 /* Debug */,
+				665C984315CC2C91001B6908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665C981A15CC2C91001B6908 /* Project object */;
+}
