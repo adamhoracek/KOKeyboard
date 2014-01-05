@@ -34,10 +34,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KOKeyboardRow : UIView
+@interface KOKeyboardRow : UIInputView <UIInputViewAudioFeedback>
 
-+ (void)applyToTextView:(UITextView *)textView;
++ (KOKeyboardRow *)applyToTextView:(UITextView *)textView;
+
 - (void)trackPointMovedX:(int)xdiff Y:(int)ydiff selecting:(BOOL)selecting;
+
 - (void)trackPointStarted;
 
+- (void)selectionComplete;
 @end

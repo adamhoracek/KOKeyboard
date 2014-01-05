@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CC2BFF18792BD700BBC434 /* UIColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC2BFC18792BD700BBC434 /* UIColorExtensions.m */; };
+		23CC2C0018792BD700BBC434 /* UIImageExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC2BFE18792BD700BBC434 /* UIImageExtensions.m */; };
 		665C982815CC2C91001B6908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C982715CC2C91001B6908 /* UIKit.framework */; };
 		665C982A15CC2C91001B6908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C982915CC2C91001B6908 /* Foundation.framework */; };
 		665C982C15CC2C91001B6908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C982B15CC2C91001B6908 /* CoreGraphics.framework */; };
@@ -14,23 +16,15 @@
 		665C983415CC2C91001B6908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C983315CC2C91001B6908 /* main.m */; };
 		665C983815CC2C91001B6908 /* KOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C983715CC2C91001B6908 /* KOAppDelegate.m */; };
 		665C983B15CC2C91001B6908 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C983A15CC2C91001B6908 /* KOViewController.m */; };
-		665C985415CC2EC5001B6908 /* hal-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984415CC2EC5001B6908 /* hal-black.png */; };
-		665C985515CC2EC5001B6908 /* hal-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984515CC2EC5001B6908 /* hal-black@2x.png */; };
-		665C985615CC2EC5001B6908 /* hal-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984615CC2EC5001B6908 /* hal-blue.png */; };
-		665C985715CC2EC5001B6908 /* hal-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984715CC2EC5001B6908 /* hal-blue@2x.png */; };
-		665C985815CC2EC5001B6908 /* hal-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984815CC2EC5001B6908 /* hal-white.png */; };
-		665C985915CC2EC5001B6908 /* hal-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984915CC2EC5001B6908 /* hal-white@2x.png */; };
-		665C985A15CC2EC5001B6908 /* key-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984A15CC2EC5001B6908 /* key-blue.png */; };
-		665C985B15CC2EC5001B6908 /* key-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984B15CC2EC5001B6908 /* key-blue@2x.png */; };
-		665C985C15CC2EC5001B6908 /* key-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984C15CC2EC5001B6908 /* key-pressed.png */; };
-		665C985D15CC2EC5001B6908 /* key-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984D15CC2EC5001B6908 /* key-pressed@2x.png */; };
-		665C985E15CC2EC5001B6908 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984E15CC2EC5001B6908 /* key.png */; };
-		665C985F15CC2EC5001B6908 /* key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C984F15CC2EC5001B6908 /* key@2x.png */; };
 		665C986015CC2EC5001B6908 /* KOKeyboardRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C985115CC2EC5001B6908 /* KOKeyboardRow.m */; };
 		665C986115CC2EC5001B6908 /* KOSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C985315CC2EC5001B6908 /* KOSwipeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23CC2BFB18792BD700BBC434 /* UIColorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorExtensions.h; sourceTree = "<group>"; };
+		23CC2BFC18792BD700BBC434 /* UIColorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorExtensions.m; sourceTree = "<group>"; };
+		23CC2BFD18792BD700BBC434 /* UIImageExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtensions.h; sourceTree = "<group>"; };
+		23CC2BFE18792BD700BBC434 /* UIImageExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtensions.m; sourceTree = "<group>"; };
 		665C982315CC2C91001B6908 /* KOKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665C982715CC2C91001B6908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		665C982915CC2C91001B6908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,18 +37,6 @@
 		665C983715CC2C91001B6908 /* KOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOAppDelegate.m; sourceTree = "<group>"; };
 		665C983915CC2C91001B6908 /* KOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
 		665C983A15CC2C91001B6908 /* KOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
-		665C984415CC2EC5001B6908 /* hal-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-black.png"; sourceTree = "<group>"; };
-		665C984515CC2EC5001B6908 /* hal-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-black@2x.png"; sourceTree = "<group>"; };
-		665C984615CC2EC5001B6908 /* hal-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-blue.png"; sourceTree = "<group>"; };
-		665C984715CC2EC5001B6908 /* hal-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-blue@2x.png"; sourceTree = "<group>"; };
-		665C984815CC2EC5001B6908 /* hal-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-white.png"; sourceTree = "<group>"; };
-		665C984915CC2EC5001B6908 /* hal-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hal-white@2x.png"; sourceTree = "<group>"; };
-		665C984A15CC2EC5001B6908 /* key-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-blue.png"; sourceTree = "<group>"; };
-		665C984B15CC2EC5001B6908 /* key-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-blue@2x.png"; sourceTree = "<group>"; };
-		665C984C15CC2EC5001B6908 /* key-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-pressed.png"; sourceTree = "<group>"; };
-		665C984D15CC2EC5001B6908 /* key-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-pressed@2x.png"; sourceTree = "<group>"; };
-		665C984E15CC2EC5001B6908 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
-		665C984F15CC2EC5001B6908 /* key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key@2x.png"; sourceTree = "<group>"; };
 		665C985015CC2EC5001B6908 /* KOKeyboardRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKeyboardRow.h; sourceTree = "<group>"; };
 		665C985115CC2EC5001B6908 /* KOKeyboardRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKeyboardRow.m; sourceTree = "<group>"; };
 		665C985215CC2EC5001B6908 /* KOSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOSwipeButton.h; sourceTree = "<group>"; };
@@ -75,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23CC2BFA18792BC600BBC434 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				23CC2BFB18792BD700BBC434 /* UIColorExtensions.h */,
+				23CC2BFC18792BD700BBC434 /* UIColorExtensions.m */,
+				23CC2BFD18792BD700BBC434 /* UIImageExtensions.h */,
+				23CC2BFE18792BD700BBC434 /* UIImageExtensions.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		665C981815CC2C91001B6908 = {
 			isa = PBXGroup;
 			children = (
@@ -130,18 +123,6 @@
 		665C986215CC2ED3001B6908 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				665C984415CC2EC5001B6908 /* hal-black.png */,
-				665C984515CC2EC5001B6908 /* hal-black@2x.png */,
-				665C984615CC2EC5001B6908 /* hal-blue.png */,
-				665C984715CC2EC5001B6908 /* hal-blue@2x.png */,
-				665C984815CC2EC5001B6908 /* hal-white.png */,
-				665C984915CC2EC5001B6908 /* hal-white@2x.png */,
-				665C984A15CC2EC5001B6908 /* key-blue.png */,
-				665C984B15CC2EC5001B6908 /* key-blue@2x.png */,
-				665C984C15CC2EC5001B6908 /* key-pressed.png */,
-				665C984D15CC2EC5001B6908 /* key-pressed@2x.png */,
-				665C984E15CC2EC5001B6908 /* key.png */,
-				665C984F15CC2EC5001B6908 /* key@2x.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -149,6 +130,7 @@
 		66B86ACE15DD034100DB7BAF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				23CC2BFA18792BC600BBC434 /* Utilities */,
 				665C985015CC2EC5001B6908 /* KOKeyboardRow.h */,
 				665C985115CC2EC5001B6908 /* KOKeyboardRow.m */,
 				665C985215CC2EC5001B6908 /* KOSwipeButton.h */,
@@ -210,18 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				665C983215CC2C91001B6908 /* InfoPlist.strings in Resources */,
-				665C985415CC2EC5001B6908 /* hal-black.png in Resources */,
-				665C985515CC2EC5001B6908 /* hal-black@2x.png in Resources */,
-				665C985615CC2EC5001B6908 /* hal-blue.png in Resources */,
-				665C985715CC2EC5001B6908 /* hal-blue@2x.png in Resources */,
-				665C985815CC2EC5001B6908 /* hal-white.png in Resources */,
-				665C985915CC2EC5001B6908 /* hal-white@2x.png in Resources */,
-				665C985A15CC2EC5001B6908 /* key-blue.png in Resources */,
-				665C985B15CC2EC5001B6908 /* key-blue@2x.png in Resources */,
-				665C985C15CC2EC5001B6908 /* key-pressed.png in Resources */,
-				665C985D15CC2EC5001B6908 /* key-pressed@2x.png in Resources */,
-				665C985E15CC2EC5001B6908 /* key.png in Resources */,
-				665C985F15CC2EC5001B6908 /* key@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +205,9 @@
 				665C983415CC2C91001B6908 /* main.m in Sources */,
 				665C983815CC2C91001B6908 /* KOAppDelegate.m in Sources */,
 				665C983B15CC2C91001B6908 /* KOViewController.m in Sources */,
+				23CC2BFF18792BD700BBC434 /* UIColorExtensions.m in Sources */,
 				665C986015CC2EC5001B6908 /* KOKeyboardRow.m in Sources */,
+				23CC2C0018792BD700BBC434 /* UIImageExtensions.m in Sources */,
 				665C986115CC2EC5001B6908 /* KOSwipeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,10 +34,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KOSwipeButton : UIView
+@interface KOSwipeButton : UIButton
 
-@property (nonatomic, weak) id delegate;
+@property(nonatomic, weak) id delegate;
 
 - (void)setKeys:(NSString *)newKeys;
-
 @end
